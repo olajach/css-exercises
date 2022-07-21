@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+.pink {
+    background-color: pink;
+}
+
+#two {
+    color: blue;
+    font-size: 30px;
+}
+
+.three {
+    font-size: 20px;
+}
+
+#four {
+    background-color: rgb(136, 240, 136);
+    font-size: 18px;
+    font-weight: bold;
+}
