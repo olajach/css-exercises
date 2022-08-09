@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Komentarze na blogu</title>
+<style>
+    [role=banner] h1 {background: rgb(121, 27, 27); color: rgb(83, 57, 84); padding: 5px;}
+    [role=main] h1 {border-bottom: 2px dotted rgb(91, 37, 88); color: rgb(157, 29, 112);}
+    b {float: left; front-family:"Palatino Linotype", Palatino, serif; front-size: 2.5em; front-style: italic;
+    front-weight: Bold; line-height: 1; margin: 0 5px 5px 0;}
+</style>
+</head>
+<body>
+<header role="Banner">
+</header>
+<article role="main">
+    <header>
+        <h1>Tytuł mojego artykułu</h1>
+        <time pubdate datetime="2010-12-12">Niedziela, 12 grudnia 2010</time>
+        <p><b>P</b>Lorem ipsum ola dolor nie sit amet znajdziesz consectetur tego adipisicing elit. Aliquid fugiat culpa nobis ratione?</p>
+    </header>
+    <section>
+        <h2>Komentarze</h2>
+        <ol reversed>
+            <li>
+                <article>
+                    <header>
+                        <h3><time datatime="2010-12-13t11:15Z">2010-12-13 11:15</time></h3>
+                    </header>
+                    <footer>Komentarz <address><a href="https://example.com">Tomasz Kowalski</a></address></footer>
+                    <p>Co za wspaniały artykuł</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <header>
+                        <h3><time datatime="2010-12-16T11:15Z">2010-12-16 11:15</time></h3>
+                    </header>
+                    <footer> Anonimowy komentarz</footer>
+                    <p>To jakaś bzdura!!!</p>
+                </article>
+            </li>
+        </ol>
+    </section>
+</article>
+</body>
+</html>
